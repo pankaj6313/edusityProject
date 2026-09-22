@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from './components/Navbar/Navbar'
 import Hero from './components/Hero/Hero'
-import Program from './components/Program/Programrogram'
+import Program from './components/Programs/Program'
 
 
 function App() {
@@ -9,7 +9,10 @@ function App() {
     <div>
      <Navbar/>
      <Hero/>
-     <Program/>
+     <div className="container">
+      <Program/>
+      </div>
+     
     </div>
   )
 }
