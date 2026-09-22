@@ -4,6 +4,7 @@ import Hero from './components/Hero/Hero'
 import Program from './components/Programs/Program'
 import Title from './components/Title/Title'
 import About from './components/About/About'
+import Campus from './components/Campus/Campus'
 
 
 function App() {
@@ -15,6 +16,8 @@ function App() {
       <Title subTitle='Our Program' title='What We Offer '/>
       <Program/>
       <About/>
+      <Title subTitle='Gallery' title='Campus Photos'/>
+      <Campus/>
       </div>
      
     </div>
