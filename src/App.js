@@ -5,21 +5,24 @@ import Program from './components/Programs/Program'
 import Title from './components/Title/Title'
 import About from './components/About/About'
 import Campus from './components/Campus/Campus'
+import Testimonials from './components/Testimonials/Testimonials'
 
 
 function App() {
   return (
     <div>
-     <Navbar/>
-     <Hero/>
-     <div className="container">
-      <Title subTitle='Our Program' title='What We Offer '/>
-      <Program/>
-      <About/>
-      <Title subTitle='Gallery' title='Campus Photos'/>
-      <Campus/>
+      <Navbar />
+      <Hero />
+      <div className="container">
+        <Title subTitle='Our Program' title='What We Offer ' />
+        <Program />
+        <About />
+        <Title subTitle='Gallery' title='Campus Photos' />
+        <Campus />
+        <Title subTitle='TESTIMONIALS' title='What Student Says' />
+        <Testimonials />
       </div>
-     
+
     </div>
   )
 }
